@@ -5,7 +5,9 @@
   box-sizing: border-box;}
 
 body {
-  background: #e5e5e5;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -95,13 +97,13 @@ p.signed {
 }
 
 #card-front {
-  background-color: #ee9ca7;
+  background-color: hotpink;
   background-image: -webkit-gradient(
     linear,
     left top,
     left bottom,
-    from(#ff5555),
-    to(#ff7777)
+    from(hotpink),
+    to(pink)
   );
   background-image: linear-gradient(top, #ff5555 0%, #ff7777 100%);
   -webkit-transform-origin: left;
